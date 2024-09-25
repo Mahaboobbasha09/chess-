@@ -1,0 +1,44 @@
+*{
+    margin-left: 5%;
+    padding: 0%;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.chess{
+    border-spacing: 0; 
+    border-collapse: collapse;
+    margin-left :30%;
+    margin-bottom: 10%;
+    width: 1000px;
+    height: 1000px;
+}
+.chess tr{
+    padding: .5em;
+}
+.chess td {
+    width: 2%; 
+    height: 2%;
+     text-align: center; 
+     font-size: 32px; 
+     line-height: 0
+}
+.chess td :last-child{
+    border-right: 1px solid #000;
+}
+.chess tr:last-child td{
+    border-bottom: 1px solid;
+}
+.chess .a{
+    background: #eee;
+}
+.chess .b{
+    background: #535252;
+}
+.a:hover{
+    background-color: rgb(2, 245, 245);
+}
+.b:hover{
+    background-color: rgb(247, 10, 10);
+}
